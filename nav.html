@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border: 2px solid black;
+        }
+        .nav div:nth-child(2){
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+            gap: 20px;
+        }
+        #login{
+            height: 40px;
+            width:60px;
+            border:1px solid #dd8792;
+            border-radius: 8px;
+            color: #dd8792;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div>
+            <img src="./download.png" alt="masai" style="height: 200px ;width:200px;display: flex;justify-content: center;align-items: center;">
+        </div>
+        <div>
+            <p>COURSES</p>
+            <p>FEE & ISA</p>
+            <p>ABOUT US</p>
+            <p>HIRE FROM US</p>
+            <p>FAQ</p>
+            <p>EVENTS</p>
+            <p>REFER & EARN</p>
+            <p id="login">LOGIN</p>
+        </div>
+
+    </nav>
+    
+</body>
+</html>
